@@ -1,0 +1,20 @@
+{
+  "home_page" : {
+    "category" : "//*[@role='menuitem']"
+  },
+  "header" : {
+    "search_icon" : "//button//*[text()='SEARCH']",
+    "search_field" : "//input[@data-qa='HOMEPAGE-SEARCH-input']",
+    "submit_search_button" : "//button[@data-qa='HOMEPAGE-SEARCH-submit']"
+  },
+  "product_page" : {
+    "item_name" : "//h1[contains(@class,'product-name') and text()]",
+    "add_to_bag_button" : "//button//*[normalize-space(text())='ADD TO BAG']"
+  },
+  "products_page" : {
+    "item_image" : "//*[@data-th='product-link']//img",
+    "item_price" : "//*[@data-th='product-link']//*[contains(text(),'$')]",
+    "item_name" : "//*[@data-th='product-link']//h2",
+    "search_term" : "//input[@id='searchInput']"
+  }
+}
